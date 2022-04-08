@@ -5,10 +5,11 @@
 
 body {
   margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #e5e5e5;
 }
 
 nav {
-  position: absolute;
   width: 550px;
   height: 70px;
   left: 0px;
@@ -22,49 +23,116 @@ nav {
 }
 
 .hero {
-  position: absolute;
-  width: 395.91px;
-  height: 232px;
-  left: 77px;
-  top: 96px;
+  display: flex;
+  flex-direction: column;
 }
 
 .hero .img {
   max-width: 400px;
   align-self: center;
+  margin-top: 20px;
 }
 
 .hero .title {
-  position: absolute;
-  width: 347px;
-  height: 40px;
-  left: 36px;
-  top: 360px;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 36px;
-  line-height: 110%;
+  line-height: 39.6px;
   margin-bottom: 16px;
 }
 
 .hero .text {
-  position: absolute;
   width: 320px;
   height: 56px;
-  left: 36px;
-  top: 416px;
-  font-family: 'Poppins';
-  font-style: normal;
+  font-family: 'Poppins', sans-serif;
   font-weight: 300;
   font-size: 16px;
-  line-height: 110%;
-  margin-top: 60px;
+  line-height: 17.6px;
+  margin-top: 0;
+  color: #222222;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 175px;
+  font-size: 12px;
 }
 
 .cards .zaferes {
-  position: absolute;
-  width: 176px;
-  height: 235px;
-  left: 37px;
-  top: 521px;
+  align-self: center;
   border-radius: 9px;
+  font-size: 12px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.cards .zaferes .img {
+  align-self: center;
+  border-radius: 9px;
+  font-size: 12px;
+}
+.cards .bike {
+  align-self: center;
+  width: 175px;
+  border-radius: 9px;
+  font-size: 12px;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.cards .bike .img {
+  align-self: center;
+  border-radius: 9px;
+  font-size: 12px;
+}
+
+.cards .wedding {
+  align-self: center;
+  border-radius: 9px;
+  font-size: 12px;
+}
+.cards .wedding .img {
+  align-self: center;
+  border-radius: 9px;
+  font-size: 12px;
+}
+
+.cards .boxzaferes {
+  font-size: 10.24px;
+  line-height: 11.26px;
+  position: absolute;
+  width: 61px;
+  height: 20px;
+  left: 26px;
+  top: 507px;
+  background: #ffffff;
+  border-radius: 2px;
+  border: none;
+}
+
+.cards .boxwedding {
+  font-size: 10.24px;
+  line-height: 11.26px;
+  position: absolute;
+  width: 61px;
+  height: 20px;
+  left: 215px;
+  top: 507px;
+  background: #ffffff;
+  border-radius: 2px;
+  border: none;
+}
+
+.cards .star {
+  height: 14px;
+  width: 14px;
+  border-radius: 0.5px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.grey {
+  color: grey;
 }
